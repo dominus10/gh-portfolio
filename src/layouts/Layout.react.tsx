@@ -9,8 +9,8 @@ export default function LayoutReact(
 ) {
   const currentPath = window.location.pathname;
   const links = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
+    { path: "/gh-portfolio/", label: "Home" },
+    { path: "/gh-portfolio/about", label: "About" },
     { path: "https://github.com/dominus10", label: "Github" },
     {
       path: "https://www.linkedin.com/in/nicholas-inggih-998364140/",
