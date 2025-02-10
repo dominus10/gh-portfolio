@@ -63,7 +63,7 @@ export default function WelcomeReact({ color = "text-slate-700" }) {
     <div className="relative h-full w-full">
       <canvas ref={canvasRef} className="bg-slate-400 opacity-80" />
       <div className="absolute top-6 left-6 right-6 bottom-6 bg-slate-400 opacity-95">
-        aa
+        Test
       </div>
     </div>
   );
