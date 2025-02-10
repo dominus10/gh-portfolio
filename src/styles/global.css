@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  background: var(--color-slate-400);
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+a::after {
+  content: "↗";
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.chip {
+  border-radius: 4px;
+  background: var(--color-slate-700);
+  color: var(--color-white);
+  padding: 0 4px;
+}
